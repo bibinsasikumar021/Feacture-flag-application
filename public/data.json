@@ -1,0 +1,153 @@
+{
+    "edpr": {
+        "suzlon": {
+            "production":{
+                "features": [
+                    {
+                      "featureId": "dashboard",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-team",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-schedule",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-tasks",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-sessions",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-reports",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "tools",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "my-profile",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "qr-scanner",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "settings",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "add-a-solution",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "voice-to-text",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "notifications",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "performance",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "fix-a-problem",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "look-up",
+                      "state": "enabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    },
+                    {
+                      "featureId": "help-from-someone",
+                      "state": "disabled",
+                      "criteria": {
+                        "users": []
+                      }
+                    }
+                  ]
+            },
+            "uat/beta": {
+
+            },
+            "qa": {
+
+            },
+            "dev": {
+                
+            }
+        },
+        "vestas": {
+
+        },
+        "lonestar": {
+
+        },
+        "prairiw queen": {
+
+        }
+    },
+    "vanoord": {
+
+    },
+    "appolo": {
+
+    }
+}
