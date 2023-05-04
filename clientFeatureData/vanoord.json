@@ -1,0 +1,642 @@
+[
+    {
+      "client": "Van Oord",
+      "instance": "Production",
+      "product": "xAssist",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Production",
+      "product": "xAuthor",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Production",
+      "product": "xAdmin",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Production",
+      "product": "xViewer",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "UAT/Beta",
+      "product": "xAssist",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "UAT/Beta",
+      "product": "xAuthor",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "UAT/Beta",
+      "product": "xAdmin",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "UAT/Beta",
+      "product": "xViewer",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "QA",
+      "product": "xAssist",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "QA",
+      "product": "xAuthor",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "QA",
+      "product": "xAdmin",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "QA",
+      "product": "xViewer",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Dev",
+      "product": "xAssist",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Dev",
+      "product": "xAuthor",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Dev",
+      "product": "xAdmin",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    },
+    {
+      "client": "Van Oord",
+      "instance": "Dev",
+      "product": "xViewer",
+      "project": "",
+      "features": [
+        {
+          "featureId": "filter",
+          "state": "enabled"
+        },
+        {
+          "featureId": "side-bar",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-doc-search",
+          "state": "enabled"
+        },
+        {
+          "featureId": "add-document",
+          "state": "enabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "enabled"
+        },
+        {
+          "featureId": "feedback",
+          "state": "enabled"
+        },
+        {
+          "featureId": "x-auther-app-filter",
+          "state": "enabled"
+        }
+      ]
+    }
+  ]

@@ -2,27 +2,35 @@ import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Navbar, Container, Button, Table, Modal } from 'react-bootstrap';
 import { FaPowerOff } from 'react-icons/fa';
-import Logo from './images/LogoLex.png';
+import Logo from './images/lexx-logo.png';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
+import axios from "axios";
+const baseURL = `${process.env.REACT_APP_BACKEND_URL}/feature-flags`;
 
 const App = () => {
     const [data, setData] = useState([]);
+    const [features, setFeatures] = useState([]);
     const [showModal, setShowModal] = useState(false);
+    const [clientFeature, setClientFeature] = useState({});
     const [filters, setFilters] = useState({
         instance: '',
         client: '',
         project: '',
         product: ''
     });
+
     const [filterOptions, setFilterOptions] = useState({
         instance: [],
         client: [],
         project: [],
         product: []
     });
+
     const [filteredData, setFilteredData] = useState(data);
 
-    const handleEdit = () => {
+    const handleEdit = (client) => {
+        setFeatures(client.features);
+        setClientFeature(client);
         setShowModal(true);
     };
 
@@ -41,7 +49,8 @@ const App = () => {
             ];
         });
         setFilterOptions(newFilterOptions);
-    }, [data]);
+        handleFilterClick();
+    }, [data, filters,features]);
 
     const handleFilterClick = () => {
         const filteredData = data.filter((value) => {
@@ -55,54 +64,77 @@ const App = () => {
         setFilteredData(filteredData);
     };
 
+    const handleClearFilter = () => {
+        setFilters({
+            instance: '',
+            client: '',
+            project: '',
+            product: ''
+        });
+    }
+
+    const changeState = (ind) => {
+        console.log("CHange state calleds");
+        let data = features
+        data.forEach((feature, index) => {
+            if(index === ind){
+                if (feature.state === 'disabled') {
+                    feature.state = 'enabled';
+                } else {
+                    feature.state = 'disabled';
+                }
+            }
+        })
+        // if (features[index].state === 'disabled') {
+        //     features[index].state = 'enabled';
+        // } else {
+        //     features[index].state = 'disabled';
+        // }
+        console.log(data);
+        setFeatures(data);
+    } 
     // fetching json data
     useEffect(() => {
-        async function fetchData() {
-            const response = await fetch('newdata.json');
-            const json = await response.json();
-            setData(json);
-        }
-        fetchData();
+        axios.get(baseURL).then((response) => {
+            console.log(response.data);
+            setData(response.data);
+        });
     }, []);
+
+    const updateFeatureFlag = () => {
+        let req = clientFeature;
+        req.features = features;
+        axios.patch(baseURL, req).then((response) => {
+            console.log(response);
+            window.location.reload();
+        });
+    }
 
     return (
         <>
             <div className=''>
                 <Navbar
                     className='bg-primary'
+                    background-color= '#034E91'
                     variant='dark'
                     collapseOnSelect
                     expand='lg'
                 >
+                 
+                   
                     <Container fluid className='text-center'>
                         <Navbar.Brand href='#home'>
                             <img
                                 src={Logo}
-                                width='205'
-                                height='80'
+                                width='150'
+                                height='40'
                                 alt='LEXX'
                                 id='logo'
                             />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                         <Navbar.Collapse id='responsive-navbar-nav'>
-                            <Nav className='mx-auto me-5'>
-                                <Nav.Link className='text-white' href='#home'>
-                                    Feature
-                                </Nav.Link>
-                                <Nav.Link
-                                    className='text-white'
-                                    href='#features'
-                                >
-                                    Flag
-                                </Nav.Link>
-                                <Nav.Link
-                                    className='text-white'
-                                    href='#pricing'
-                                >
-                                    Control
-                                </Nav.Link>
-                            </Nav>
+
 
                             <Nav className='ms-auto'>
                                 <Button style={{ color: 'white' }}>
@@ -113,8 +145,10 @@ const App = () => {
                     </Container>
                 </Navbar>
             </div>
+
             <div className='d-flex justify-content-center mt-3'>
-                <table className='my-table'>
+         
+                <Table className='my-table'>
                     <thead className='text-center'>
                         <tr>
                             <th>
@@ -147,7 +181,7 @@ const App = () => {
                                 >
                                     <option value=''>Select client...</option>
                                     {filterOptions.client.map((option) => (
-                                        <option key={option} value={option}>
+                                        <option key={option} value={option} >
                                             {option}
                                         </option>
                                     ))}
@@ -189,9 +223,14 @@ const App = () => {
                                     ))}
                                 </select>
                             </th>
-                            <th>
+                            {/* <th>
                                 <button onClick={handleFilterClick}>
                                     Filter
+                                </button>
+                            </th> */}
+                            <th>
+                                <button onClick={handleClearFilter}>
+                                    Clear filter
                                 </button>
                             </th>
                         </tr>
@@ -214,7 +253,7 @@ const App = () => {
                                     <td>
                                         <Button
                                             onClick={() => {
-                                                handleEdit(index);
+                                                handleEdit(value);
                                             }}
                                         >
                                             Edit
@@ -224,7 +263,7 @@ const App = () => {
                             );
                         })}
                     </tbody>
-                </table>
+                </Table>
             </div>
             <Modal
                 show={showModal}
@@ -235,6 +274,7 @@ const App = () => {
                     <Modal.Title>Feature List</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+                    <Button style={{float: 'right'}} onClick={updateFeatureFlag}>Update features</Button>
                     <Table striped bordered hover>
                         <thead className='text-center'>
                             <tr>
@@ -244,16 +284,16 @@ const App = () => {
                             </tr>
                         </thead>
                         <tbody className='text-center'>
-                            {data.map((value, index) => {
-                                console.log(value.features[0].featureId);
+                            {features.map((value, index) => {
                                 return (
                                     <tr key={index} className='h-50'>
-                                        <td>{value.features[0].featureId}</td>
-                                        <td>{value.features[0].state}</td>
+                                        <td>{value.featureId}</td>
+                                        <td>{value.state}</td>
                                         <td>
                                             <BootstrapSwitchButton
-                                                checked={true}
+                                                checked={value.state === 'enabled'?true:false}
                                                 size='sm'
+                                                onChange={(state) => changeState(index)}
                                             />
                                         </td>
                                     </tr>

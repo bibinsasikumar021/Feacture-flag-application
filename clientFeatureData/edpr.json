@@ -1,0 +1,2434 @@
+[
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAssist",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAssist",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAssist",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAssist",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAdmin",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAdmin",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAdmin",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Production",
+      "product": "xAdmin",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAssist",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAssist",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAssist",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAssist",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAdmin",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAdmin",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAdmin",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "UAT/Beta",
+      "product": "xAdmin",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAssist",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAssist",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAssist",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAssist",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAdmin",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAdmin",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAdmin",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "QA",
+      "product": "xAdmin",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAssist",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAssist",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAssist",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAssist",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAdmin",
+      "project": "Prairie Queen",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAdmin",
+      "project": "Vestas",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAdmin",
+      "project": "Lonestar",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    },
+    {
+      "client": "EDPR",
+      "instance": "Dev",
+      "product": "xAdmin",
+      "project": "Suzlon",
+      "features": [
+        {
+          "featureId": "dashboard",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-team",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-schedule",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-tasks",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-sessions",
+          "state": "enabled"
+        },
+        {
+          "featureId": "my-reports",
+          "state": "disabled"
+        },
+        {
+          "featureId": "tools",
+          "state": "disabled"
+        },
+        {
+          "featureId": "my-profile",
+          "state": "enabled"
+        },
+        {
+          "featureId": "qr-scanner",
+          "state": "disabled"
+        },
+        {
+          "featureId": "settings",
+          "state": "disabled"
+        },
+        {
+          "featureId": "add-a-solution",
+          "state": "disabled"
+        },
+        {
+          "featureId": "voice-to-text",
+          "state": "disabled"
+        },
+        {
+          "featureId": "notifications",
+          "state": "disabled"
+        },
+        {
+          "featureId": "performance",
+          "state": "disabled"
+        },
+        {
+          "featureId": "fix-a-problem",
+          "state": "enabled"
+        },
+        {
+          "featureId": "look-up",
+          "state": "enabled"
+        },
+        {
+          "featureId": "help-from-someone",
+          "state": "disabled"
+        }
+      ]
+    }
+  ]

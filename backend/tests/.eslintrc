@@ -1,0 +1,5 @@
+{
+    "env": {
+      "mocha": true // To make eslint work with mocha
+    }
+}
