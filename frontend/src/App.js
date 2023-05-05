@@ -5,7 +5,7 @@ import { Navbar, Container, Button, Table, Modal } from 'react-bootstrap';
 import { FaPowerOff } from 'react-icons/fa';
 import Logo from './images/lexx-logo.png';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
-import axios from "axios";
+import axios from 'axios';
 const baseURL = `${process.env.REACT_APP_BACKEND_URL}/feature-flags`;
 
 const App = () => {
@@ -72,11 +72,11 @@ const App = () => {
             project: '',
             product: ''
         });
-    }
+    };
 
     const changeState = (ind) => {
-        console.log("CHange state calleds");
-        let data = features
+        console.log('CHange state calleds');
+        let data = features;
         data.forEach((feature, index) => {
             if (index === ind) {
                 if (feature.state === 'disabled') {
@@ -85,7 +85,7 @@ const App = () => {
                     feature.state = 'disabled';
                 }
             }
-        })
+        });
         // if (features[index].state === 'disabled') {
         //     features[index].state = 'enabled';
         // } else {
@@ -93,7 +93,7 @@ const App = () => {
         // }
         console.log(data);
         setFeatures(data);
-    }
+    };
     // fetching json data
     useEffect(() => {
         axios.get(baseURL).then((response) => {
@@ -109,57 +109,55 @@ const App = () => {
             console.log(response);
             window.location.reload();
         });
-    }
+    };
 
     return (
         <>
-            <div className=''>
+            <div>
                 <Navbar
                     className='bg-primary'
                     background-color='#034E91'
                     variant='dark'
                     collapseOnSelect
                     expand='lg'
+                    style={{ backgroundColor: '#0971ce' }}
                 >
-
-
-                    <Container fluid className='text-center'>
-                        <Navbar.Brand href='#home'>
-                            <img
-                                src={Logo}
-                                width='150'
-                                height='40'
-                                alt='LEXX'
-                                id='logo'
-                            />
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-                        <Navbar.Collapse id='responsive-navbar-nav'>
-
-
-                            <Nav className='ms-auto'>
-                                <Button style={{ color: 'white' }}>
-                                    <FaPowerOff />
-                                </Button>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
+                    <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+                    <Navbar.Brand href='#home'>
+                        <img
+                            src={Logo}
+                            width='150'
+                            height='40'
+                            alt='LEXX'
+                            id='logo'
+                            className='ms-2'
+                        />
+                    </Navbar.Brand>
+                    <Navbar.Collapse
+                        className='justify-content-center me-5'
+                        id='responsive-navbar-nav'
+                    >
+                        <span style={{ color: 'white ' }}>
+                            Feature Flag Application
+                        </span>
+                    </Navbar.Collapse>
+                    <Button style={{ color: 'white', marginRight: '20px' }}>
+                        <FaPowerOff />
+                    </Button>
                 </Navbar>
             </div>
-
             <div className='d-flex justify-content-end me-5 mt-3'>
                 <button onClick={handleClearFilter} className='btn btn-secondary'>
                     Clear filter
                 </button>
             </div>
             <div className='d-flex justify-content-center mt-2 ms-5 me-5'>
-
                 <Table className='my-table ' striped bordered>
                     <thead className='text-center'>
                         {/* <tr>
                             <th>
                                 <select
-                                    value={filters.instance}
+                                    value='Instance'
                                     onChange={(e) =>
                                         handleFilterChange(
                                             'instance',
@@ -167,7 +165,7 @@ const App = () => {
                                         )
                                     }
                                 >
-                                    <option value=''>Select instance</option>
+                                    <option value=''>Instance </option>
                                     {filterOptions.instance.map((option) => (
                                         <option key={option} value={option}>
                                             {option}
@@ -177,7 +175,8 @@ const App = () => {
                             </th>
                             <th>
                                 <select
-                                    value={filters.client}
+                                    // value={filters.client}
+                                    value='Client'
                                     onChange={(e) =>
                                         handleFilterChange(
                                             'client',
@@ -187,7 +186,7 @@ const App = () => {
                                 >
                                     <option value=''>Select client...</option>
                                     {filterOptions.client.map((option) => (
-                                        <option key={option} value={option} >
+                                        <option key={option} value={option}>
                                             {option}
                                         </option>
                                     ))}
@@ -328,6 +327,9 @@ const App = () => {
                                     <td>{value.product}</td>
                                     <td>
                                         <Button
+                                            style={{
+                                                backgroundColor: '#0971ce'
+                                            }}
                                             onClick={() => {
                                                 handleEdit(value);
                                             }}
@@ -350,7 +352,12 @@ const App = () => {
                     <Modal.Title>Feature List</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Button style={{ float: 'right' }} onClick={updateFeatureFlag}>Update features</Button>
+                    <Button
+                        style={{ float: 'right' }}
+                        onClick={updateFeatureFlag}
+                    >
+                        Update features
+                    </Button>
                     <Table striped bordered hover>
                         <thead className='text-center'>
                             <tr>
@@ -367,9 +374,15 @@ const App = () => {
                                         <td>{value.state}</td>
                                         <td>
                                             <BootstrapSwitchButton
-                                                checked={value.state === 'enabled' ? true : false}
+                                                checked={
+                                                    value.state === 'enabled'
+                                                        ? true
+                                                        : false
+                                                }
                                                 size='sm'
-                                                onChange={(state) => changeState(index)}
+                                                onChange={(state) =>
+                                                    changeState(index)
+                                                }
                                             />
                                         </td>
                                     </tr>
