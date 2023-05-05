@@ -1,3 +1,4 @@
+import './App.css'
 import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Navbar, Container, Button, Table, Modal } from 'react-bootstrap';
@@ -50,7 +51,7 @@ const App = () => {
         });
         setFilterOptions(newFilterOptions);
         handleFilterClick();
-    }, [data, filters,features]);
+    }, [data, filters, features]);
 
     const handleFilterClick = () => {
         const filteredData = data.filter((value) => {
@@ -77,7 +78,7 @@ const App = () => {
         console.log("CHange state calleds");
         let data = features
         data.forEach((feature, index) => {
-            if(index === ind){
+            if (index === ind) {
                 if (feature.state === 'disabled') {
                     feature.state = 'enabled';
                 } else {
@@ -92,7 +93,7 @@ const App = () => {
         // }
         console.log(data);
         setFeatures(data);
-    } 
+    }
     // fetching json data
     useEffect(() => {
         axios.get(baseURL).then((response) => {
@@ -115,13 +116,13 @@ const App = () => {
             <div className=''>
                 <Navbar
                     className='bg-primary'
-                    background-color= '#034E91'
+                    background-color='#034E91'
                     variant='dark'
                     collapseOnSelect
                     expand='lg'
                 >
-                 
-                   
+
+
                     <Container fluid className='text-center'>
                         <Navbar.Brand href='#home'>
                             <img
@@ -146,11 +147,16 @@ const App = () => {
                 </Navbar>
             </div>
 
-            <div className='d-flex justify-content-center mt-3'>
-         
-                <Table className='my-table'>
+            <div className='d-flex justify-content-end me-5 mt-3'>
+                <button onClick={handleClearFilter} className='btn btn-secondary'>
+                    Clear filter
+                </button>
+            </div>
+            <div className='d-flex justify-content-center mt-2 ms-5 me-5'>
+
+                <Table className='my-table ' striped bordered>
                     <thead className='text-center'>
-                        <tr>
+                        {/* <tr>
                             <th>
                                 <select
                                     value={filters.instance}
@@ -223,22 +229,92 @@ const App = () => {
                                     ))}
                                 </select>
                             </th>
-                            {/* <th>
+                            <th>
                                 <button onClick={handleFilterClick}>
                                     Filter
                                 </button>
-                            </th> */}
+                            </th>
                             <th>
                                 <button onClick={handleClearFilter}>
                                     Clear filter
                                 </button>
                             </th>
-                        </tr>
+                        </tr> */}
                         <tr>
-                            <th>Instance</th>
-                            <th>Client</th>
-                            <th>Project</th>
-                            <th>Product</th>
+                            <th>
+                                <select
+                                    value={'Instance'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'instance',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value='' selected>Instance </option>
+                                    {filterOptions.instance.map((option) => (
+                                        <option key={option} value={option}>
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
+                            <th>
+                                <select
+                                    value={'Client'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'client',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value=''>Client</option>
+                                    {filterOptions.client.map((option) => (
+                                        <option key={option} value={option} >
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
+                            <th><select
+                                value={'Project'}
+                                onChange={(e) =>
+                                    handleFilterChange(
+                                        'project',
+                                        e.target.value
+                                    )
+                                }
+                                className='form-select border-0 text-center fw-bold'
+                            >
+                                <option value=''>Project</option>
+                                {filterOptions.project.map((option) => (
+                                    <option key={option} value={option}>
+                                        {option}
+                                    </option>
+                                ))}
+                            </select></th>
+                            <th>
+                                <select
+                                    value={'Product'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'product',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value=''>Product</option>
+                                    {filterOptions.product.map((option) => (
+                                        <option key={option} value={option}>
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -274,7 +350,7 @@ const App = () => {
                     <Modal.Title>Feature List</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Button style={{float: 'right'}} onClick={updateFeatureFlag}>Update features</Button>
+                    <Button style={{ float: 'right' }} onClick={updateFeatureFlag}>Update features</Button>
                     <Table striped bordered hover>
                         <thead className='text-center'>
                             <tr>
@@ -291,7 +367,7 @@ const App = () => {
                                         <td>{value.state}</td>
                                         <td>
                                             <BootstrapSwitchButton
-                                                checked={value.state === 'enabled'?true:false}
+                                                checked={value.state === 'enabled' ? true : false}
                                                 size='sm'
                                                 onChange={(state) => changeState(index)}
                                             />
