@@ -1,3 +1,4 @@
+import './App.css'
 import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Navbar, Container, Button, Table, Modal } from 'react-bootstrap';
@@ -114,6 +115,9 @@ const App = () => {
         <>
             <div>
                 <Navbar
+                    className='bg-primary'
+                    background-color='#034E91'
+                    variant='dark'
                     collapseOnSelect
                     expand='lg'
                     style={{ backgroundColor: '#0971ce' }}
@@ -142,11 +146,15 @@ const App = () => {
                     </Button>
                 </Navbar>
             </div>
-
-            <div className='d-flex justify-content-center mt-3'>
-                <Table className='my-table'>
+            <div className='d-flex justify-content-end me-5 mt-3'>
+                <button onClick={handleClearFilter} className='btn btn-secondary'>
+                    Clear filter
+                </button>
+            </div>
+            <div className='d-flex justify-content-center mt-2 ms-5 me-5'>
+                <Table className='my-table ' striped bordered>
                     <thead className='text-center'>
-                        <tr>
+                        {/* <tr>
                             <th>
                                 <select
                                     value='Instance'
@@ -220,22 +228,92 @@ const App = () => {
                                     ))}
                                 </select>
                             </th>
-                            {/* <th>
+                            <th>
                                 <button onClick={handleFilterClick}>
                                     Filter
                                 </button>
-                            </th> */}
+                            </th>
                             <th>
                                 <button onClick={handleClearFilter}>
                                     Clear filter
                                 </button>
                             </th>
-                        </tr>
+                        </tr> */}
                         <tr>
-                            <th>Instance</th>
-                            <th>Client</th>
-                            <th>Project</th>
-                            <th>Product</th>
+                            <th>
+                                <select
+                                    value={'Instance'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'instance',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value='' selected>Instance </option>
+                                    {filterOptions.instance.map((option) => (
+                                        <option key={option} value={option}>
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
+                            <th>
+                                <select
+                                    value={'Client'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'client',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value=''>Client</option>
+                                    {filterOptions.client.map((option) => (
+                                        <option key={option} value={option} >
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
+                            <th><select
+                                value={'Project'}
+                                onChange={(e) =>
+                                    handleFilterChange(
+                                        'project',
+                                        e.target.value
+                                    )
+                                }
+                                className='form-select border-0 text-center fw-bold'
+                            >
+                                <option value=''>Project</option>
+                                {filterOptions.project.map((option) => (
+                                    <option key={option} value={option}>
+                                        {option}
+                                    </option>
+                                ))}
+                            </select></th>
+                            <th>
+                                <select
+                                    value={'Product'}
+                                    onChange={(e) =>
+                                        handleFilterChange(
+                                            'product',
+                                            e.target.value
+                                        )
+                                    }
+                                    className='form-select border-0 text-center fw-bold'
+                                >
+                                    <option value=''>Product</option>
+                                    {filterOptions.product.map((option) => (
+                                        <option key={option} value={option}>
+                                            {option}
+                                        </option>
+                                    ))}
+                                </select>
+                            </th>
                             <th>Action</th>
                         </tr>
                     </thead>
